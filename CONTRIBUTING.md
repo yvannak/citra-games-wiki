@@ -65,7 +65,7 @@ The metadata for the game is located at `/<Game Name>/game.dat`. This is require
 - `needs_system_files` (Boolean): Whether the game requests the system files or not, regardless of whether it could be played without them (See: [Citra Version](#citra-version)).
 - `needs_shared_font` (Boolean): Whether the game requests the shared font or not, regardless of whether it could be played without them (See: [Citra Version](#citra-version)).
 - `game_type` (String): Whether the game has a retail release, `"3ds"`, is an E-Shop **exclusive**, `"eshop"`, a Virtual Console game, `"vc"`, or DSiWare, `"dsi"`. This line is optional for retail releases.
-- `releases` (Array of tables): Info about each release of the game.
+- `releases` (Array of tables): Info about each release of the game. **The USA release should come first.**
   - `title` (String): Title ID of this release of the game. See: [Title IDs](#title-ids).
   - `region` (String): Region of the game. Possible values are:
     - `aus`
