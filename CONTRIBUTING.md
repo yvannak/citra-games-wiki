@@ -112,7 +112,7 @@ date = "2017-06-03"
 version = "HEAD-a7ddec8"
 author = "Flamboyant_Ham"
 cpu = "Intel Core i7-4720HQ"
-gpu = "GeForce GTX 960M"
+gpu = "Nvidia GeForce GTX 960M"
 os = "Windows 10 14393"
 ```
 
