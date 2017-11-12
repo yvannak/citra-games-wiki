@@ -252,6 +252,14 @@ function validateTOML(path) {
             validateNotEmpty(testcase, "gpu");
             validateNotEmpty(testcase, "os");
         });
+        
+        // Validate dates are properly ordered
+        section.reduce(function(previousValue, currentValue) {
+            if (typeof previousValue === "undefined" || previousValue.date <= currentValue.date) {
+                return currentValue;
+            }
+            validationError("Test case dates are not properly sorted in ascending order.");
+        });
     }
     /* else {
         validationError("No testcases.")
