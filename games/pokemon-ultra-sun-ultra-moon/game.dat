@@ -1,0 +1,25 @@
+title = "Pokémon Ultra Sun and Ultra Moon"
+description = "Pokémon Ultra Sun and Pokémon Ultra Moon are role-playing video games developed by Game Freak, published by The Pokémon Company, and distributed by Nintendo for the Nintendo 3DS. Announced in June 2017, the titles are enhanced versions of Pokémon Sun and Moon with a modified storyline, similar to previous enhanced versions like Platinum, Emerald and Yellow. The games are the second installments in the seventh generation of the main series and the last planned installment of the main series Pokémon games for Nintendo 3DS."
+github_issues = [2190, 3128, 3133]
+needs_system_files = true
+needs_shared_font = false
+
+[[ releases ]]
+title = "00040000001B5000"
+region = "all"
+release_date = "2017-11-17"
+
+[[ releases ]]
+title = "00040000001B5100"
+region = "all"
+release_date = "2017-11-17"
+
+[[ testcases ]]
+title = "00040000001B5100"
+compatibility = "1"
+date = "2017-11-17"
+version = "HEAD-c810a3f"
+author = "Hexagon12"
+cpu = "Intel Core i3-6100"
+gpu = "Nvidia GeForce GTX 750 Ti"
+os = "Windows 10 16299"
