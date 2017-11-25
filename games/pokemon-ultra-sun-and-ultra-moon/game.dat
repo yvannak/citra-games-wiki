@@ -1,0 +1,21 @@
+title = "Pokemon Ultra Sun and Ultra Moon"
+description = "Pokémon Ultra Sun and Ultra Moon work great in Citra. Graphically, the games look amazing with minor graphical issues, but require quite powerful hardware to achieve higher frame rates. The game as of now is uncompletable and you need to perform a workaround to skip the Alola Photo Club."
+needs_system_files = true
+needs_shared_font = false
+game_type = "vc"
+vc_system = "nes"
+
+[[releases]]
+title = "00040000001B5100"
+region = "usa"
+release_date = "2017-11-17"
+
+[[testcases]]
+title = "00040000001B5100"
+compatibility = "0"
+date = "2017-11-17"
+version = "HEAD-c810a3f"
+cpu = "\tIntel Core i3-6100"
+gpu = "Nvidia GeForce GTX 750 Ti"
+os = "\tIntel Core i3-6100 Nvidia GeForce GTX 750 Ti Windows 10 16299"
+author = "yvannak"
